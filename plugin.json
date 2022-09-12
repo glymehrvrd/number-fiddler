@@ -1,0 +1,19 @@
+{
+	"preload": "preload.js",
+	"logo": "logo.png",
+	"features": [
+		{
+			"code": "numify",
+			"explain": "view number nicely",
+			"cmds": [
+				"numify",
+				{
+					"type": "regex",
+					"label": "numify",
+					"match": "/^\\d{1,}$/",
+					"minLength": 1
+				}
+			]
+		}
+	]
+}
